@@ -1,0 +1,26 @@
+{
+  "name": "webapp-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wngzhe/webapp-node.git"
+  },
+  "author": "wngzhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wngzhe/webapp-node/issues"
+  },
+  "homepage": "https://github.com/wngzhe/webapp-node#readme",
+  "dependencies": {
+    "jquery": "^3.2.0",
+    "vue": "^2.2.4"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.15"
+  }
+}
