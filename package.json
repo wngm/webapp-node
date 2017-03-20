@@ -21,6 +21,7 @@
     "vue": "^2.2.4"
   },
   "devDependencies": {
+    "express": "^4.15.2",
     "webpack": "^1.12.15"
   }
 }
