@@ -1,0 +1,24 @@
+{
+  "name": "webapp-node",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "wngzhe"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/wngzhe/webapp-node",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.*.*",
+    "vue-resource": "^1.2.1",
+    "vue": "^2.2.6",
+    "requirejs": "^2.3.3"
+  }
+}
