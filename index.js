@@ -1,9 +1,15 @@
 var express=require('express')
 var app = express();
 app.set('port',process.env.PORT || 80);
-app.get('/',function(req,res){
-    res.render('/templates/index')
-})
+// app.use(express.static(__dirname+'/static'));
+app.use(express.static(__dirname+'/templates'));
+app.get('',function(req,res){
+    res.type('text/html');
+    console.log(111)
+    console.log(req.headers);
+    res.render('/templates/index.html')
+});
+
 app.use(function(req,res,next){
     res.type('text/plain');
     res.status(404);
@@ -14,7 +20,7 @@ app.use(function(req,res,next){
     res.status(500);
     res.send('500-Server Error')
 } )
-app.use(express.static(__dirname+'/static'))
+
 
 
 app.listen(app.get('port'),function(){

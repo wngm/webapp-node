@@ -2,8 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="static/css/index.css" />
     </head>
     <body>
-    <h1>hello word</h1>
+    <div id="app">
+        <h1>{{message}}</h1>
+    </div>
     </body>
+    <script src="static/js/vue.js"></script>
+    <script>
+        var app=new Vue({
+            el:'#app',
+            data:{
+                message:'start vue'
+            }
+        })
+    </script>
 </html>
